@@ -59,7 +59,7 @@ nav > a:hover{
     color: #5D3C89;
 }
 .main-content{
-    font-size: 50px;
+    font-size: 60px;
     line-height: 20px;
 }
 hr{
@@ -70,14 +70,6 @@ hr{
 }
 
 /* Footer style */
-
-footer > div{
-    float:left;
-}
-
-footer > p{
-    float:right;
-}
 
 .social-link{
     text-decoration: none;
