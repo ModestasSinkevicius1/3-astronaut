@@ -5,22 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronaut</title>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!--3rd party-->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!-- Custom -->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">   
 </head>
 
 <body>
-    <header>
-        <img src="./logo.png" alt="Logo">
-        <nav>
+    <header class="container">
+        <img src="./img/logo.png" alt="Logo" class="logo">
+        <nav class="main-nav">
             <a href="#">About</a>
             <a href="#">Portfolio</a>
             <a href="#">Job</a>
             <a href="#">Contact</a>
         </nav>
     </header>
-    <main>
-        <div>
+    <main class="container">
+        <div class="main-left-content">
             <h1>404</h1>
             <h1>Lost in Space</h1>
             <hr>
@@ -29,29 +32,21 @@
                 The page you requested could not be found.<br>
                 Don't worry and return to the previous page.<br>
             </p>
-            <div>
+            <div class="content-button">
                 <a href="#">Go home</a>
                 <a href="#">Back</a>
             </div>
         </div>
-        <img src="./astronaut.gif" alt="flying astronaut">
+        <img src="./img/astronaut.gif" alt="flying astronaut" class="main-image">
     </main>
-    <footer>
-        <div>
-            <a href="#">
-                <img src="./facebook-logo_block.png" alt="facebook logo">
-            </a>
-            <a href="#">
-                <img src="./twitter_logo_block.png" alt="facebook logo">
-            </a>
-            <a href="#">
-                <img src="./instagram_log_block.png" alt="facebook logo">
-            </a>
-            <a href="#">
-                <img src="./linkedin_logo_block.png" alt="facebook logo">
-            </a>
+    <footer class="container">
+        <div class="socials">
+            <a class="social-link fa fa-facebook-square" aria-hidden="true" target="_blank" href="#"></a>
+            <a class="social-link fa fa-twitter-square" aria-hidden="true" target="_blank" href="#"></a>
+            <a class="social-link fa fa-instagram" aria-hidden="true" target="_blank" href="#"></a>
+            <a class="social-link fa fa-linkedin-square" aria-hidden="true" target="_blank" href="#"></a>
         </div>
-        <p>&#169; 2022 - All rights reserved</p>
+        <p class="copyright">&#169; 2022 - All rights reserved</p>
     </footer>
 </body>
 </html>

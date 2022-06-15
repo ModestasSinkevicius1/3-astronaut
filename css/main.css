@@ -14,43 +14,43 @@ header{
     margin-bottom: 50px;
 }
 
-header > img{
+.logo{
     float:left;
 }
 
-nav{
+.main-nav{
     float:right;        
 }
 
-nav > a{
+.main-nav > a{
     color: black;
     text-decoration: none;
     margin-right: 20px;
     font-weight: 500;
 }
 
-nav > a:last-child{
+.main-nav > a:last-child{
     margin: 0;
 }
 
-nav > a:hover{
+.main-nav > a:hover{
     text-decoration: underline;
     text-decoration-color: #5D3C89;
 }
 
 /* Main style */
 
-main > div{
+.main-left-content{
     width: 40%;
     float: left;
     margin:100px auto 100px 15px;
 }
 
-main > div > h1:first-child{
+.main-left-content > h1:first-child{
     font-weight:lighter;
 }
 
-main > div > h1{
+.main-left-content > h1{
     font-size: 60px;
     line-height: 20px;
     margin-bottom: 35px;
@@ -63,12 +63,12 @@ hr{
     background-color: #5D3C89;
 }
 
-main > div > p{
+.main-left-content > p{
     margin: 35px auto 50px 4px;
     color: gray;
 }
 
-main > div > div > a{
+.content-button > a{
     border: 2px solid #5D3C89;
     border-radius: 30px;
     padding: 15px 45px;
@@ -80,37 +80,37 @@ main > div > div > a{
     text-transform: uppercase;
 }
 
-main > div > div > a:first-child{
+.content-button > a:first-child{
     margin-right: 10px;
     background-color: #5D3C89;
     color: white;
 }
 
-main > div > div > a:last-child{
+.content-button > a:last-child{
     color: #5D3C89;
 }
 
-main > img{
+.main-image{
     width: 58%;
     float: right;
 }
 
 /* Footer style */
 
-footer > div{
+.socials{
     float: left;
     margin-top: 10px;
 }
 
-footer > div > a{
+.social-link{
     text-decoration: none;
-}
-
-footer > div > a > img{
-    width: 20px;
     margin: 0 10px;
 }
 
-footer > p{
+.copyright{
     float: right;
+}
+
+.fa{
+    font-size: 25px;
 }
