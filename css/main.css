@@ -4,13 +4,13 @@ body{
 
 /* Header style */
 
-header, main, footer{
+.container{
     display: inline-block;
     width: 1000px;
     margin: 0 calc(50% - 500px);
 }
 
-header{   
+.container:first-child{   
     margin-bottom: 50px;
 }
 
