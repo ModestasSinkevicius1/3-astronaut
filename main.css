@@ -42,7 +42,7 @@ nav > a:hover{
 main > div{
     width: 40%;
     float: left;
-    margin:100px auto;
+    margin:100px auto 100px 15px;
 }
 
 main > div > h1:first-child{
@@ -52,6 +52,7 @@ main > div > h1:first-child{
 main > div > h1{
     font-size: 60px;
     line-height: 20px;
+    margin-bottom: 35px;
 }
 
 hr{
@@ -62,17 +63,19 @@ hr{
 }
 
 main > div > p{
-    margin-bottom: 50px;
+    margin: 35px auto 50px 4px;
+    color: gray;
 }
 
 main > div > div > a{
     border: 2px solid #5D3C89;
     border-radius: 24px;
-    padding: 10px 30px;
+    padding: 15px 40px;
     margin-bottom: 10px;
     display: inline-block;
     text-decoration: none;
     font-size: 14px;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -87,7 +90,7 @@ main > div > div > a:last-child{
 }
 
 main > img{
-    width: 60%;
+    width: 58%;
     float: right;
 }
 
@@ -104,7 +107,6 @@ footer > div > a{
 
 footer > div > a > img{
     width: 20px;
-    filter: grayscale(100%);
     margin: 0 10px;
 }
 
