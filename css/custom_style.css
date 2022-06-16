@@ -1,5 +1,6 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 /* Header style */
@@ -52,6 +53,13 @@ body{
     margin:100px 0 25px 15px;
 }
 
+hr{
+    width: 95px;
+    margin: 4px;
+    padding: 2px;
+    background-color: #5D3C89;
+}
+
 @media (max-width: 1000px) {
     .container{
         width: 400px;
@@ -67,9 +75,14 @@ body{
     }
     .main-left-content{
         margin-top: 0;
+        margin-left: 0;
+        width: 100%;
     }
     .main-image{
         margin-bottom: 50px;
+    }
+    hr{
+        margin-left: 25px;
     }
 }
 
@@ -90,44 +103,9 @@ body{
     margin-bottom: 35px;
 }
 
-hr{
-    width: 95px;
-    margin: 4px;
-    padding: 2px;
-    background-color: #5D3C89;
-}
-
 .main-left-content > p{
     margin: 35px auto 50px 4px;
     color: gray;
-}
-
-.content-button > a{
-    border: 2px solid #5D3C89;
-    border-radius: 30px;
-    padding: 15px 45px;
-    margin-bottom: 10px;
-    display: inline-block;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    transition: all 150ms;
-}
-
-.content-button > a:hover{
-    box-shadow: 0px 2px 4px 2px #0008;
-}
-
-.content-button > a:first-child{
-    margin-right: 10px;
-    background-color: #5D3C89;
-    color: white;
-    background-image: linear-gradient(black, #5D3C89);
-}
-
-.content-button > a:last-child{
-    color: #5D3C89;
 }
 
 .main-image{
