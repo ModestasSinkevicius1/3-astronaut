@@ -19,7 +19,7 @@ body{
     float:left;
 }
 
-.main-nav{
+nav.main-nav{
     float:right;        
 }
 
@@ -37,6 +37,11 @@ body{
 .main-nav > a:hover{
     text-decoration: underline;
     text-decoration-color: #5D3C89;
+}
+
+.hamburger{
+    display: none;
+    float: right;
 }
 
 /* Main style */
@@ -91,6 +96,34 @@ hr{
         width:400px;
         margin: 0 calc(50% - 200px)
     }
+    nav.main-nav{
+        clear: both;
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .main-nav a{
+        display: block;
+        color: white;
+        padding: 10px 0 10px;
+        background-color: black;
+        width: 100%;
+        border-bottom: 2px solid white;
+    }
+
+    .main-nav a:last-child{
+        border-bottom: none;
+    }
+
+    nav.main-nav{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }   
 }
 
 .main-left-content > h1:first-child{

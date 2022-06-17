@@ -10,13 +10,16 @@
     <!-- Custom -->
     <link rel="stylesheet" href="./css/custom_style.css">
     <link rel="stylesheet" href="./css/button_style.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">   
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
     <header class="container">
         <img src="./img/logo.png" alt="Logo" class="logo">
-        <nav class="main-nav">
+        <a href="javascript:void(0);" onclick="toggleBar()" class="hamburger">
+            <i class="fa fa-bars"></i>
+        </a>
+        <nav class="main-nav" id="list-down">
             <a href="#">About</a>
             <a href="#">Portfolio</a>
             <a href="#">Job</a>
@@ -49,5 +52,6 @@
         </div>
         <p class="copyright">&#169; 2022 - All rights reserved</p>
     </footer>
+    <script src="./hamburger.js"></script>
 </body>
 </html>
