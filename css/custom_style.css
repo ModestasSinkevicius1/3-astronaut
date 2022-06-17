@@ -99,7 +99,9 @@ hr{
     nav.main-nav{
         clear: both;
         display: block;
-        width: 100%;
+        position: absolute;
+        top: 40px;
+        width: 400px;
         text-align: center;
         margin: 0;
     }
@@ -108,7 +110,7 @@ hr{
         display: block;
         color: white;
         padding: 10px 0 10px;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.861);
         width: 100%;
         border-bottom: 2px solid white;
     }
